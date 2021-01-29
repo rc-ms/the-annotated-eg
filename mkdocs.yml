@@ -8,10 +8,20 @@ copyright: "© Microsoft 2021"
 docs_dir: "docs"
 repo_url: https://github.com/rc-ms/the-annotated-eg
 nav:
-  - About The Annotated Electionguard: index.md
-  - Use Cases:
+  - About: index.md
+  - ElectionGuard Guides:
     - Precinct Scan: how-to/Precinct_scan.md
-    - Copy images from clipboard: how-to/paste-images-from-clipboard.md
+  - Help:
+      - Daily notes: features/daily-notes.md
+      - Graph visualization: features/graph-visualization.md
+      - Link reference definitions: features/link-reference-definitions.md
+      - Note properties: features/note-properties.md
+      - Note templates: Note features/note-templates.md
+      - Spell checking: features/spell-checking.md
+      - Tags and tag explorer: features/tags-and-tag-explorer.md
+      - Wiki links: features/wiki-links.md
+      - Keyboard shortcuts for editing: how-to/use-keyboard-shortcuts-for-editing.md
+      - Write notes in foam: how-to/write-notes-in-foam.md
 plugins:
   - search
 theme:
