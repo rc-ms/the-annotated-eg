@@ -11,17 +11,17 @@ nav:
   - About: index.md
   - Use Cases:
     - Precinct Scan: how-to/Precinct_scan.md
-    - Electionic Ballot Delivery: how-to/Electronic_ballot_delivery.md
-    - Mobile Voting: how-to/Mobile_voting.md
+  #  - Electionic Ballot Delivery: how-to/Electronic_ballot_delivery.md
+  #  - Mobile Voting: how-to/Mobile_voting.md
   - Processes:
-    - Key Ceremony: processes/Key_ceremony.md
-    - Tally Ceremony: processes/Tally_ceremony.md
-    - Verifying an Election: processes/Verifier.md
-    - Publishing an Election Result: processes/Publishing.md
+  #  - Key Ceremony: processes/Key_ceremony.md
+  # - Tally Ceremony: processes/Tally_ceremony.md
+  # - Verifying an Election: processes/Verifier.md
+  #  - Publishing an Election Result: processes/Publishing.md
   - Modules:
-    - Specification: modules/Specification.md
-    - Python Full Service Module: modules/Python.md
-    - C++ Encryption Module: modules/Cpp.md
+  #  - Specification: modules/Specification.md
+  #  - Python Full Service Module: modules/Python.md
+  #  - C++ Encryption Module: modules/Cpp.md
   - Content creation:
       - Daily notes: features/daily-notes.md
       - Graph visualization: features/graph-visualization.md
