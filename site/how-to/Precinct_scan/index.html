@@ -11,7 +11,7 @@
         <meta name="author" content="rc-ms">
       
       
-      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.5">
     
     
@@ -59,10 +59,9 @@
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@microsoft" />
+  <meta name="twitter:site" content="@rc-colabear" />
   <meta name="twitter:title" content="The Annotated ElectionGuard - Precinct Scan" />
   <meta name="twitter:description" content="None" />
-  <meta name="twitter:image" content="https://microsoft.github.io/electionguard/assets/images/electionguard-preview.png" />
 
   </head>
   
@@ -182,8 +181,8 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../index.md" class="md-tabs__link">
-      About The Annotated Electionguard
+    <a href="../.." class="md-tabs__link">
+      About
     </a>
   </li>
 
@@ -201,6 +200,54 @@
     <li class="md-tabs__item">
       <a href="./" class="md-tabs__link md-tabs__link--active">
         Use Cases
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../processes/Key_ceremony/" class="md-tabs__link">
+        Processes
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../modules/Specification.md" class="md-tabs__link">
+        Modules
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../features/daily-notes/" class="md-tabs__link">
+        Content creation
       </a>
     </li>
   
@@ -260,8 +307,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../index.md" class="md-nav__link">
-        About The Annotated Electionguard
+      <a href="../.." class="md-nav__link">
+        About
       </a>
     </li>
   
@@ -349,6 +396,174 @@
     Adapting Precinct Scan for End-to-end Verifiability (E2E-V)
   </a>
   
+    <nav class="md-nav" aria-label="Adapting Precinct Scan for End-to-end Verifiability (E2E-V)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#voter-experience" class="md-nav__link">
+    Voter Experience
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements" class="md-nav__link">
+    Technical Requirements
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-implementation" class="md-nav__link">
+    Technical Implementation
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical Implementation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview-and-operational-assumptions" class="md-nav__link">
+    Overview and Operational Assumptions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-election-setup" class="md-nav__link">
+    General Election Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="General Election Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ballot-manifest" class="md-nav__link">
+    Ballot manifest
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-encryption-key" class="md-nav__link">
+    Public encryption key
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logic-and-accuracy-testing" class="md-nav__link">
+    Logic and Accuracy Testing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scanner-final-production-setup" class="md-nav__link">
+    Scanner Final Production Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Scanner Final Production Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#launch-code" class="md-nav__link">
+    Launch Code
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scanner-election-operation" class="md-nav__link">
+    Scanner Election Operation
+  </a>
+  
+    <nav class="md-nav" aria-label="Scanner Election Operation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ballot-encryption" class="md-nav__link">
+    Ballot Encryption
+  </a>
+  
+    <nav class="md-nav" aria-label="Ballot Encryption">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#generation-of-verification-code" class="md-nav__link">
+    Generation of Verification Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ballot-chaining" class="md-nav__link">
+    Ballot Chaining
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ballot-dehydration" class="md-nav__link">
+    Ballot Dehydration
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ballot-finalization" class="md-nav__link">
+    Ballot Finalization
+  </a>
+  
+    <nav class="md-nav" aria-label="Ballot Finalization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cast-ballots" class="md-nav__link">
+    Cast ballots
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenge-ballots" class="md-nav__link">
+    Challenge ballots
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -364,8 +579,332 @@
   
   
     <li class="md-nav__item">
-      <a href="../paste-images-from-clipboard/" class="md-nav__link">
-        Copy images from clipboard
+      <a href="../Electronic_ballot_delivery.md" class="md-nav__link">
+        Electionic Ballot Delivery
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Mobile_voting.md" class="md-nav__link">
+        Mobile Voting
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        Processes
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Processes" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          Processes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../processes/Key_ceremony/" class="md-nav__link">
+        Key Ceremony
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../processes/Tally_ceremony.md" class="md-nav__link">
+        Tally Ceremony
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../processes/Verifier.md" class="md-nav__link">
+        Verifying an Election
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../processes/Publishing.md" class="md-nav__link">
+        Publishing an Election Result
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+      
+      <label class="md-nav__link" for="nav-4">
+        Modules
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Modules" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          Modules
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/Specification.md" class="md-nav__link">
+        Specification
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/Python.md" class="md-nav__link">
+        Python Full Service Module
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modules/Cpp.md" class="md-nav__link">
+        C++ Encryption Module
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+      
+      <label class="md-nav__link" for="nav-5">
+        Content creation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Content creation" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          Content creation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/daily-notes/" class="md-nav__link">
+        Daily notes
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/graph-visualization/" class="md-nav__link">
+        Graph visualization
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/link-reference-definitions/" class="md-nav__link">
+        Link reference definitions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/note-properties/" class="md-nav__link">
+        Note properties
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/note-templates/" class="md-nav__link">
+        Note templates
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/spell-checking/" class="md-nav__link">
+        Spell checking
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/tags-and-tag-explorer/" class="md-nav__link">
+        Tags and tag explorer
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/wiki-links/" class="md-nav__link">
+        Wiki links
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/use-keyboard-shortcuts-for-editing/" class="md-nav__link">
+        Keyboard shortcuts for editing
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/write-notes-in-foam/" class="md-nav__link">
+        Write notes in foam
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/paste-images-from-clipboard/" class="md-nav__link">
+        Paste images from clipboard
       </a>
     </li>
   
@@ -420,6 +959,174 @@
     Adapting Precinct Scan for End-to-end Verifiability (E2E-V)
   </a>
   
+    <nav class="md-nav" aria-label="Adapting Precinct Scan for End-to-end Verifiability (E2E-V)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#voter-experience" class="md-nav__link">
+    Voter Experience
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements" class="md-nav__link">
+    Technical Requirements
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-implementation" class="md-nav__link">
+    Technical Implementation
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical Implementation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview-and-operational-assumptions" class="md-nav__link">
+    Overview and Operational Assumptions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-election-setup" class="md-nav__link">
+    General Election Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="General Election Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ballot-manifest" class="md-nav__link">
+    Ballot manifest
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-encryption-key" class="md-nav__link">
+    Public encryption key
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logic-and-accuracy-testing" class="md-nav__link">
+    Logic and Accuracy Testing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scanner-final-production-setup" class="md-nav__link">
+    Scanner Final Production Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Scanner Final Production Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#launch-code" class="md-nav__link">
+    Launch Code
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scanner-election-operation" class="md-nav__link">
+    Scanner Election Operation
+  </a>
+  
+    <nav class="md-nav" aria-label="Scanner Election Operation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ballot-encryption" class="md-nav__link">
+    Ballot Encryption
+  </a>
+  
+    <nav class="md-nav" aria-label="Ballot Encryption">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#generation-of-verification-code" class="md-nav__link">
+    Generation of Verification Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ballot-chaining" class="md-nav__link">
+    Ballot Chaining
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ballot-dehydration" class="md-nav__link">
+    Ballot Dehydration
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ballot-finalization" class="md-nav__link">
+    Ballot Finalization
+  </a>
+  
+    <nav class="md-nav" aria-label="Ballot Finalization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cast-ballots" class="md-nav__link">
+    Cast ballots
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenge-ballots" class="md-nav__link">
+    Challenge ballots
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -441,14 +1148,51 @@
                 
                 <h1 id="electionguard-precinct-scan-implementation">ElectionGuard Precinct Scan Implementation</h1>
 <h2 id="overview">Overview</h2>
-<p>The ElectionGuard SDK by design can be used in a variety of use cases. This page discusses the "default" use case of ElectionGuard: an end-to-end verifiable election that uses precinct scanners where ballots are inserted (and approved) by voters directly (as distinct from scanners used solely for central tabulation)</p>
+<p>By design, the ElectionGuard SDK can be used to enable end-to-end verifiability in a variety of use cases. This article discusses the "default" use case of ElectionGuard: an end-to-end verifiable election that uses precinct scanners where ballots are inserted (and approved) by voters directly <sup id="fnref:precinct-scan"><a class="footnote-ref" href="#fn:precinct-scan">1</a></sup></p>
 <h2 id="current-precinct-scan-voter-experience">Current Precinct Scan Voter Experience</h2>
 <p>A typical voter flow for a precinct scan system is illustrated below. </p>
-<p>After a voter has acquired their ballot, they fill it out by hand or using a ballot marking device. When they are finished they insert the ballot into the scanner. The scanner then scans and interprets the ballot and generates a <a href="">cast vote record</a>, an electronic representation of the voter's selections.</p>
+<p>After a voter has acquired their ballot, they fill it out by hand or using a ballot marking device. When they finish they proceed to the scanner and insert the completed ballot. The scanner scans and interprets the ballot and generates a <a href="">cast vote record</a>, an electronic representation of the voter's selections.</p>
 <p>If all contests in a ballot are filled out properly and interpreted as such by the scanner, the ballot is accepted and the voter is free to leave the voting booth. </p>
 <p>If the scanner interprets the voter has voted for more options than the ballot contests allow (called an <em>overvote</em>), the scanner stops the ballot from being deposited into the ballot box and prompts the voter whether they would like to have the ballot returned to fix the discrepancy. If the voter agrees, a poll worker is alerted and the ballot remediated by whatever process obtains, which could involve issuance of a new ballot and "spoiling" of the overvoted ballot. </p>
 <p>The scanner can also determine whether the voter didn't fill out all the contests available (called an <em>undervote</em>). The scanner can be programmed to follow the same process as an overvote (returning the ballot for remediation), but election administrators often assume the undervote is intentional by the voter </p>
 <h2 id="adapting-precinct-scan-for-end-to-end-verifiability-e2e-v">Adapting Precinct Scan for End-to-end Verifiability (E2E-V)</h2>
+<h3 id="voter-experience">Voter Experience</h3>
+<p>As outlined in the Verifiable Election page of the ElectionGuard SDK <sup id="fnref:e2e-v"><a class="footnote-ref" href="#fn:e2e-v">2</a></sup>, for end-to-end verifiability to apply, the precinct scanner itself must provide the following capabilities for each voter:</p>
+<ul>
+<li>immediately upon scanning the ballot, create an encrypted version of the ballot using the public key generated by the election guardians (see Key Ceremony)</li>
+<li>the verification code generated by the encryption is presented to the voter (ideally in paper format) for the voter to take with them </li>
+<li>the voter has the means to challenge (or spoil) the ballot</li>
+</ul>
+<p>In this </p>
+<h3 id="technical-requirements">Technical Requirements</h3>
+<p>For end-to-end verifiability, the scanner scanning the voters' ballots has to implement the user experience described above, but also prepare all the other artifacts</p>
+<h2 id="technical-implementation">Technical Implementation</h2>
+<h3 id="overview-and-operational-assumptions">Overview and Operational Assumptions</h3>
+<h3 id="general-election-setup">General Election Setup</h3>
+<h4 id="ballot-manifest">Ballot manifest</h4>
+<h4 id="public-encryption-key">Public encryption key</h4>
+<h4 id="logic-and-accuracy-testing">Logic and Accuracy Testing</h4>
+<h4 id="scanner-final-production-setup">Scanner Final Production Setup</h4>
+<h5 id="launch-code">Launch Code</h5>
+<h3 id="scanner-election-operation">Scanner Election Operation</h3>
+<h4 id="ballot-encryption">Ballot Encryption</h4>
+<h5 id="generation-of-verification-code">Generation of Verification Code</h5>
+<h5 id="ballot-chaining">Ballot Chaining</h5>
+<h5 id="ballot-dehydration">Ballot <strong><em>Dehydration</em></strong></h5>
+<h3 id="ballot-finalization">Ballot <em>Finalization</em></h3>
+<h4 id="cast-ballots">Cast ballots</h4>
+<h4 id="challenge-ballots">Challenge ballots</h4>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:precinct-scan">
+<p>As distinct from scanners used solely for central tabulation, which occurs with mail-in voting or any tabulation / aggregation scenario <em>where voters are not present when the cast vote record is created</em>&#160;<a class="footnote-backref" href="#fnref:precinct-scan" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:e2e-v">
+<p><a href="https://www.electionguard.vote/guide/Verifiable_Election/">ElectionGuard Verifiable Election</a> [https://www.electionguard.vote/guide/Verifiable_Election/]&#160;<a class="footnote-backref" href="#fnref:e2e-v" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
                 
               
               
@@ -467,14 +1211,28 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
+          <a href="../.." title="About" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                About
+              </div>
+            </div>
+          </a>
         
-          <a href="../paste-images-from-clipboard/" title="Copy images from clipboard" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+        
+          <a href="../../processes/Key_ceremony/" title="Key Ceremony" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Copy images from clipboard
+                Key Ceremony
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
@@ -499,10 +1257,6 @@
         </a> and <a href="https://icons8.com/" target="_blank" rel="noopener">
           Icons8
         </a>
-      </div>
-      <div class="md-footer-copyright" style="display: flex; align-items:center;">
-        <span style="font-size:14px; margin-right: 8px;">Founded by</span>
-        <img style="width:120px" alt="microsoft-logo" src="https://microsoft.github.io/electionguard/assets/images/microsoft-logo.png"/>
       </div>
       
     </div>
