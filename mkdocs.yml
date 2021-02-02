@@ -9,19 +9,31 @@ docs_dir: "docs"
 repo_url: https://github.com/rc-ms/the-annotated-eg
 nav:
   - About: index.md
-  - ElectionGuard Guides:
+  - Use Cases:
     - Precinct Scan: how-to/Precinct_scan.md
-  - Help:
+    - Electionic Ballot Delivery: how-to/Electronic_ballot_delivery.md
+    - Mobile Voting: how-to/Mobile_voting.md
+  - Processes:
+    - Key Ceremony: processes/Key_ceremony.md
+    - Tally Ceremony: processes/Tally_ceremony.md
+    - Verifying an Election: processes/Verifier.md
+    - Publishing an Election Result: processes/Publishing.md
+  - Modules:
+    - Specification: modules/Specification.md
+    - Python Full Service Module: modules/Python.md
+    - C++ Encryption Module: modules/Cpp.md
+  - Content creation:
       - Daily notes: features/daily-notes.md
       - Graph visualization: features/graph-visualization.md
       - Link reference definitions: features/link-reference-definitions.md
       - Note properties: features/note-properties.md
-      - Note templates: Note features/note-templates.md
+      - Note templates: features/note-templates.md
       - Spell checking: features/spell-checking.md
       - Tags and tag explorer: features/tags-and-tag-explorer.md
       - Wiki links: features/wiki-links.md
-      - Keyboard shortcuts for editing: how-to/use-keyboard-shortcuts-for-editing.md
-      - Write notes in foam: how-to/write-notes-in-foam.md
+      - Keyboard shortcuts for editing: features/use-keyboard-shortcuts-for-editing.md
+      - Write notes in foam: features/write-notes-in-foam.md
+      - Paste images from clipboard: features/paste-images-from-clipboard.md
 plugins:
   - search
 theme:
